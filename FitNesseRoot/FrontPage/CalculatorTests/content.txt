@@ -1,0 +1,10 @@
+!path tests
+
+This is a calculator tests page
+
+|in.vikramrao.CalculatorTests|
+|left|operator|right|result?|
+|2       |+          |2        | 4 |
+|3       |+          |3        | 6 |
+|3       |-          |3        | 0 |
+  
