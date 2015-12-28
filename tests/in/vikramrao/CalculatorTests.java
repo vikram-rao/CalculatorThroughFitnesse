@@ -14,6 +14,8 @@ public class CalculatorTests extends ColumnFixture {
 				return subtract(left, right);
 			case "*":
 				return multiply(left,right);
+			case "/":
+				return divide(left,right);
 		}
 		return 0;
 	}
@@ -29,4 +31,9 @@ public class CalculatorTests extends ColumnFixture {
 	public int multiply(int left, int right) {
 		return left * right;
 	}
+
+	public int divide (int left, int right) {
+		return left / right;
+	}
+
 }
