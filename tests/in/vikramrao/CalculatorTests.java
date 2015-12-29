@@ -3,10 +3,10 @@ package in.vikramrao;
 import fit.ColumnFixture;
 
 public class CalculatorTests extends ColumnFixture {
-	public int left, right;
+	public double left, right;
 	public String operator;
 
-	public int result() {
+	public double result() {
 		switch(operator) {
 			case "+":
 				return add(left, right);
@@ -20,19 +20,19 @@ public class CalculatorTests extends ColumnFixture {
 		return 0;
 	}
 
-	public int add(int left, int right) {
+	public double add(double left, double right) {
 		return left + right;
 	}
 
-	public int subtract(int left, int right) {
+	public double subtract(double left, double right) {
 		return left - right;
 	}
 
-	public int multiply(int left, int right) {
+	public double multiply(double left, double right) {
 		return left * right;
 	}
 
-	public int divide (int left, int right) {
+	public double divide (double left, double right) {
 		return left / right;
 	}
 
